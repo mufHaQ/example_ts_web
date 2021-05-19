@@ -1,0 +1,1 @@
+<h1>Contoh Express app dengan Typescript</h1>
