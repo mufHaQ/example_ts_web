@@ -1,6 +1,6 @@
 export default class Server {
     constructor(
-        public port: number = 8000,
+        public port: any,
         public host: string,
         public app: any
     ) {

@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 class Server {
-    constructor(port = 8000, host, app) {
+    constructor(port, host, app) {
         this.port = port;
         this.host = host;
         this.app = app;
