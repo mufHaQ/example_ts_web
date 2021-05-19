@@ -1,11 +1,11 @@
-// import
-
 export default class Server {
     constructor(
-        public port: number,
+        public port: number = 8000,
         public host: string,
         public app: any
-    ) { }
+    ) {
+        this.run()
+    }
 
     run() {
         this.app.listen(this.port, () => {

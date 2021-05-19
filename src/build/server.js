@@ -1,11 +1,11 @@
 "use strict";
-// import
 Object.defineProperty(exports, "__esModule", { value: true });
 class Server {
-    constructor(port, host, app) {
+    constructor(port = 8000, host, app) {
         this.port = port;
         this.host = host;
         this.app = app;
+        this.run();
     }
     run() {
         this.app.listen(this.port, () => {
